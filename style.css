@@ -262,6 +262,8 @@ input::placeholder{
 @media(max-width: 769px){
     .container{
         flex-direction: column;
+        overflow: hidden;
+
     }
 
     .front-card, .front-card img, .back-card, .back-card img{
@@ -286,7 +288,7 @@ input::placeholder{
     }
 
     .right-side{
-        margin-top: 3rem;
+        margin-top: 4rem;
         align-items: flex-start;
         gap: 0;
     }
@@ -306,12 +308,22 @@ input::placeholder{
 
     label{
         font-size: 1rem;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     button{
         padding: 20px;
         font-size: 1rem;
+    }
+
+    .info-1, .info-2{
+        margin-bottom: 30px;
+    }
+    .info-3{
+        margin-bottom: 50px;
+    }
+    body{
+        overflow: hidden;
     }
 }
 
